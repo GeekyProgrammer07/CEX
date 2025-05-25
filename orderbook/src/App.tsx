@@ -1,10 +1,12 @@
 import { Fragment } from "react"
-import { Navbar } from "./layouts/Navbar"
+import OrderBookUI from "./layouts/Navbar"
+import { CssBaseline } from "@mui/material"
 function App() {
 
   return (
     <Fragment>
-      <Navbar></Navbar>
+      <CssBaseline></CssBaseline>
+      <OrderBookUI></OrderBookUI>
     </Fragment>
   )
 }
